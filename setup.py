@@ -6,7 +6,7 @@ description = 'Dummy App'
 setup(
     name='dummyapp',
     version='0.1',
-    scripts=['dummy.py'],
+    scripts=['app.py'],
     zip_safe=False,
     description=description,
     url='http://github.com/karmab/dummy',
