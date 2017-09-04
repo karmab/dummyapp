@@ -1,7 +1,4 @@
-#add code here
-DATE=$(date)
-echo "---> Creating built.html"
-echo "Build date: $DATE" > ./built.html
-#INSTALL APP
+echo "---> Creating build_date"
+echo "$(date)" > ./build_date
 mv /tmp/src/* ./
 python setup.py install
