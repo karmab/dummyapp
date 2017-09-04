@@ -15,7 +15,7 @@ def hello():
     """  
     vms = [1, 2, 3]
     # return render_template('index.html', title='Home', vms)
-    return "Hello, World version 2!"
+    return "Hello, World version 3!\n"
 
 
 def run():
